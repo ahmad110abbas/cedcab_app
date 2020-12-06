@@ -1,0 +1,33 @@
+body{	
+		text-align: center;
+			/*background-image: url("admin.jpg");*/
+  			background-size: cover;
+  			background-repeat: no-repeat;
+		}
+.sha{
+
+	box-shadow: 10px 10px #888888;
+}
+.sha a{
+	color: white;
+	padding: 2%;
+	border-radius: 5%;
+}
+.disabled-link{
+        cursor: default;
+        pointer-events: none;        
+        text-decoration: none;
+        color: grey;
+    }
+    .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+body{
+  overflow: hidden;
+}
